@@ -24,7 +24,7 @@ if (!is_null($events['events'])) {
 			
 			if($command =="->")
 			{
-				$text_reply ="ผู้ป่วย  ".$id."   ชื่อ ".$name."  นามสกุล  ".$surname.$num_row;
+				$text_reply ="ผู้ป่วย  ".$id."   ชื่อ ".$name."  นามสกุล  ".$surname.$test;
 			}
 			
 			
