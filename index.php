@@ -22,7 +22,7 @@ if (!is_null($events['events'])) {
 			
 			if($command =="->")
 			{
-				$text_reply ="ผู้ป่วย  ".$id."ชื่อ ".$name."".$surname;
+				$text_reply ="ผู้ป่วย  ".$id."   ชื่อ ".$name."".$surname;
 			}
 			
 			
