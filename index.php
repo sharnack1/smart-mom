@@ -18,22 +18,7 @@ if (!is_null($events['events'])) {
 			$command = substr($command,0,2);
 			$id = $text;
 			$id = substr($text,2);
-		        // Create connection
-$conn = new mysqli("smart-mom.org", "admin_lr", "thiobhio", "admin_lr");
-$conn->set_charset("utf8");
-	
 
-$result = $conn->query
-(
-    "
-    SELECT * FROM main 
-	where id='$id' 
-    "
-);
-$data = $result->fetch_array();
-$name=$data['name'];
-$surname=$data['surname'];
-$conn->close();
 			
 			if($command =="->")
 			{
