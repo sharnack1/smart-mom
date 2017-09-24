@@ -17,7 +17,7 @@ if (!is_null($events['events'])) {
 			$command = $text;
 			$command = substr($command,0,11);
 			$id = $text;
-			$id = substr($text,4);
+			$id = substr($text,11);
 			require("smart-mom.org/botevent.php");
 			
 			if($command =="->ค้นหา->id")
