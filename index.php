@@ -18,11 +18,11 @@ if (!is_null($events['events'])) {
 			$command = substr($command,0,2);
 			$id = $text;
 			$id = substr($text,2);
-			//require("smart-mom.org/botevent.php");
+		        include("smart-mom.org/botevent.php");
 			
 			if($command =="->")
 			{
-				$text_reply =$id;//$name."".$surname;
+				$text_reply ="ผู้ป่วย  ".$id."ชื่อ ".$name."".$surname;
 			}
 			
 			
