@@ -14,7 +14,16 @@ if (!is_null($events['events'])) {
 			$text = $event['message']['text'];
 			// Get replyToken
 			$replyToken = $event['replyToken'];
+			$command = $text;
+			$command = substr($command,0,11);
+			$id = $text;
+			$id = substr($text,4);
+			require("smart-mom.org/botevent.php");
 			
+			if($command =="->ค้นหา->id")
+			{
+				$text_reply =$name."".$surname;
+			}
 			
 			
 			if($text =="->")
