@@ -18,7 +18,7 @@ if (!is_null($events['events'])) {
 			$command = substr($command,0,2);
 			$id = $text;
 			$id = substr($text,2);
-			include("http://www.smart-mom.org/botevent?id=$id");
+			include("http://www.smart-mom.org/botevent?id='.$id.'");
 
 			
 			if($command =="->")
