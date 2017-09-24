@@ -19,7 +19,7 @@ if (!is_null($events['events'])) {
 			$id = $text;
 			$id = substr($text,2);
 			$url = "http://www.smart-mom.org/botevent.php?id=".$id;
-			include($url);
+			include $url;
 
 			
 			if($command =="->")
